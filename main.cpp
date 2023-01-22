@@ -33,7 +33,7 @@ int romanToInt(string roman) {
 
 
 //############################################################################
-//convert integers to romanian symbols
+//convert integers to roman symbols
 string intToRoman(int num) {
     string roman[] = {"C", "XC", "L", "XL", "X", "IX", "V", "IV", "I"};
     int values[] = {100, 90, 50, 40, 10, 9, 5, 4, 1};
@@ -74,7 +74,7 @@ int main() {
     
     
 //############################################################################
-// create vectors for romanian symbols and for numbers, for printing result and complete arithmetical actions  
+// create vectors for roman symbols and for numbers, for printing result and complete arithmetical actions  
     vector <string> symb;
     vector <string> nums;
     
